@@ -1,0 +1,180 @@
+/* import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=MuseoModerno:wght@300&family=Raleway&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+/* Home / Main */
+#home {
+  height: 100vh;
+  /* Logo / Nav */
+  /* Home / Text */
+}
+#home header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+#home header .logo {
+  font-family: "MuseoModerno", cursive;
+  font-size: 1.2em;
+  color: #232323;
+}
+#home header #menu {
+  visibility: hidden;
+  position: absolute;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+#home header #menu li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 50px 20px;
+  list-style: none;
+}
+#home header #menu li img {
+  width: 100%;
+  max-width: 20px;
+}
+#home header #menu a {
+  text-decoration: none;
+  color: #202020;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+#home header #menu.active {
+  visibility: visible;
+}
+#home header #btn-nave {
+  display: flex;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+#home header #btn-nave #menu-nave {
+  border-top: 2px solid;
+  width: 20px;
+}
+#home header #btn-nave #menu-nave::after {
+  content: " ";
+  display: block;
+  width: 20px;
+  background: currentColor;
+  border-top: 2px solid;
+  margin-top: 5px;
+}
+#home header #btn-nave #menu-nave::before {
+  content: " ";
+  display: block;
+  width: 20px;
+  background: currentColor;
+  border-top: 2px solid;
+  margin-top: 5px;
+}
+#home .home-page {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #dbf7cb;
+  border-radius: 15px;
+  padding: 50px 50px;
+}
+#home .home-page .home-child {
+  font-family: "MuseoModerno", cursive;
+  font-size: 80px;
+  color: #202020;
+}
+#home .home-page .btn-child {
+  border: none;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  background-color: #f59982;
+  cursor: pointer;
+}
+#home .home-page .social img {
+  width: 100%;
+  max-width: 30px;
+  cursor: pointer;
+}
+#home .home-page .social {
+  display: flex;
+  justify-content: end;
+  gap: 25px;
+}
+
+/* Home-02 / Centro */
+#home-page-02 {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 15px;
+  padding: 10px 30px;
+  background-color: #f59982;
+}
+#home-page-02 .h1-cima {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+}
+#home-page-02 .text-centro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#home-page-02 .text-centro-01 {
+  margin-top: 100px;
+  width: 600px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+}
+#home-page-02 .text-centro-01 button {
+  margin-top: 20px;
+  border: none;
+  padding: 20px 35px;
+  background-color: #232323;
+  color: #fff;
+  border-radius: 30px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  font-size: 20px;
+}
+#home-page-02 .text-centro-02 h3 {
+  background-color: #232323;
+  margin: 10px;
+  padding: 5px 15px;
+  border-radius: 15px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+#home-page-02 .text-centro-02-child {
+  display: flex;
+  align-items: center;
+}
+#home-page-02 .text-centro-02-child h3 {
+  background-color: #232323;
+  margin: 10px;
+  padding: 5px 15px;
+  border-radius: 15px;
+  color: #f5f5f5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
